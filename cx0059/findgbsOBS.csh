@@ -5,9 +5,9 @@ set obidsp = $1
 set obidpreimg = $2
 set quad = $3
 
-    set datadir = "/Volumes/gbs/vimos_mtorres"
-    set im = "$datadir/VIMOS-preimaging"
-    set sp = "$datadir/VIMOS-spectroscopy"  
+    set datadir = `pwd`#"/Volumes/gbs/vimos_mtorres"
+    set im = `pwd`#"$datadir/VIMOS-preimaging"
+    set sp = `pwd`#"$datadir/VIMOS-spectroscopy"  
     echo "Searching in directory:" $datadir    
 rm -rf junk*.lis
 
