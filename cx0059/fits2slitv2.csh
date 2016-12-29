@@ -83,6 +83,7 @@ while ($count_nslit <= $nslits )
 	MATH ccdxc = $axx * $xc + $axy * $yc + $x0
 	MATH ccddx = $axx * $dx 
 	MATH ccdyc = $ayx * $xc + $ayy * $yc + $y0   
+	echo $axx , $xc, $axy, $yc, $x0, $ccdxc
 #
 # The slits are of a 1".0 width which is equivalente 
 # to 1".0/(0".205/pix) pixels width (ccddy = 4.88).
@@ -121,10 +122,11 @@ while ($count_nslit <= $nslits )
                 MATH nearby = sqrt(($dra * c(ra)) * ($dra * c(ra)) +  ($dec - $deccxo[$cxonr]) * ($dec - $deccxo[$cxonr]))  * ( 180 / $pi ) * 3600 
 
                 set nearby = `echo $nearby | cut -d'.' -f1`
-   #             echo $nearby
       		if ( $nearby < 7 && $nearby > -7) then 
 			echo "box("$ccdxc,$ccdyc,$ccddx,$ccddy,"0)"  \#  font=\"helvetica 18 normal\"  text=\{$gbsid[$cxonr]\}  >> {$OBim}_{$OBsp}_Q{$quad}.reg
  		        echo GBS soruce $gbsid[$cxonr] 
+ 		        echo $nearby
+ 		        echo a
 		endif				
 	 	@ cxonr++
 	end	   		      
