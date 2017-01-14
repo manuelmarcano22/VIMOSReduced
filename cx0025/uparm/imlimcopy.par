@@ -1,0 +1,4 @@
+input,s,a,'VI_SSEM_577734_2011-06-24T05:56:42.518_G475_MR_402230_Q4_hi.fits[*,30:180]',,,'Input images'
+output,s,a,'newfits.fits',,,'Output images or directory'
+verbose,b,h,yes,,,'Print operations performed?'
+mode,s,h,'ql'

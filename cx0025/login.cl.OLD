@@ -5,10 +5,10 @@ if (defpar ("logver"))
     logver = "IRAF V2.16 March 2012"
 
 set	home		= "/home/vimos/VIMOSReduced/cx0025/"
-set	imdir		= "/tmp//"
+set	imdir		= "/tmp/vimos/"
 set	cache		= "U_CACHEDIR"
 set	uparm		= "home$uparm/"
-set	userid		= ""
+set	userid		= "vimos"
 
 # Set the terminal type.  We assume the user has defined this correctly 
 # when issuing the MKIRAF and no longer key off the unix TERM to set a
