@@ -1,4 +1,4 @@
-input,s,a,'new.fits',,,'List of input images'
+input,s,a,'yrange0\\,32.fits',,,'List of input images'
 output,s,h,'',,,'List of output spectra'
 apertures,s,h,'',,,'Apertures'
 format,s,h,'multispec','|onedspec|multispec|echelle|strip|',,'Extracted spectra format'
