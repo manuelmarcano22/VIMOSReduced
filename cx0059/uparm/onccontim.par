@@ -1,5 +1,5 @@
-input,s,a,'last1.fits',,,'Input images'
-output,s,a,'norm.fits',,,'Output images'
+input,s,a,'VI_SRFM_575273_2011-05-26T05:19:50.824_G475_MR_202166_Q2_hi.fits[*,16]',,,'Input images'
+output,s,a,'normap16.fits',,,'Output images'
 lines,s,h,'*',,,'Image lines to be fit'
 bands,s,h,'1',,,'Image bands to be fit'
 type,s,h,'ratio','|data|fit|difference|ratio|',,'Type of output'

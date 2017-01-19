@@ -1,4 +1,4 @@
-input,s,a,'yrange0\\,32.fits',,,'List of input images'
+input,s,a,'try2SEXM.fits',,,'List of input images'
 output,s,h,'',,,'List of output spectra'
 apertures,s,h,'',,,'Apertures'
 format,s,h,'multispec','|onedspec|multispec|echelle|strip|',,'Extracted spectra format'
@@ -44,7 +44,7 @@ threshold,r,h,0.0,0.0,,'Detection threshold for profile centering
 
 # AUTOMATIC FINDING AND ORDERING PARAMETERS
 '
-nfind,i,q,1,,,'Number of apertures to be found automatically'
+nfind,i,q,6,,,'Number of apertures to be found automatically'
 minsep,r,h,5.0,1.0,,'Minimum separation between spectra'
 maxsep,r,h,100000.0,1.0,,'Maximum separation between spectra'
 order,s,h,'increasing','|increasing|decreasing|',,'Order of apertures
