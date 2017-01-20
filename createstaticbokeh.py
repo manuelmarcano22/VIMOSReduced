@@ -9,7 +9,7 @@ plot = figure()
 plot.circle([1,2], [3,4])
 
 #Js is a js file that provides data for the plot and the tag is the tag to include in the html document.
-js, tag = autoload_static(plot, CDN, "{[site.baseurl}}/images/bokehgraphs/"+name+".js")
+js, tag = autoload_static(plot, CDN, "{{site.baseurl}}/images/bokehgraphs/"+name+".js")
 
 ##To save it in files
 
