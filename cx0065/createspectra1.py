@@ -2,7 +2,7 @@ from bokeh.plotting import figure
 from bokeh.io import output_file, show
 from bokeh.resources import CDN
 from bokeh.embed import autoload_static
-from bokeh.models import HoverTool
+from bokeh.models import HoverTool, tools
 from astropy.io import fits
 import numpy as np
 
@@ -29,6 +29,7 @@ hover = HoverTool(
 
 plot = figure(x_axis_label='Angstrom', y_axis_label='Y')
 plot.add_tools(hover)
+plot.add_tools(tools.ResizeTool())
 plot.line(xlist,secondstar)
 output_file(name+'try.html')
 show(plot)
