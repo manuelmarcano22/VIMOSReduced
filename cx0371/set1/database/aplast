@@ -1,0 +1,54 @@
+# Sun 17:04:42 22-Jan-2017
+begin	aperture last 1 1077.917 50.
+	image	last
+	aperture	1
+	beam	1
+	center	1077.917 50.
+	low	-5. -49.
+	high	5. 51.
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	1
+	curve	5
+		2.
+		1.
+		1.
+		101.
+		0.
+
+# Sun 17:04:42 22-Jan-2017
+begin	aperture last 2 2050.203 50.
+	image	last
+	aperture	2
+	beam	2
+	center	2050.203 50.
+	low	-5. -49.
+	high	5. 51.
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	1
+	curve	5
+		2.
+		1.
+		1.
+		101.
+		0.
+

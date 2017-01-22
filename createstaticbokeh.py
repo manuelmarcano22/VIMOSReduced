@@ -1,7 +1,7 @@
 from bokeh.resources import CDN
 from bokeh.plotting import figure
 from bokeh.embed import autoload_static
-
+#Inclomplete use createspectrawithbokeh
 name= 'exampleplot'
 
 #Plot commands
