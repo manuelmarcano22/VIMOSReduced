@@ -1,6 +1,6 @@
-# Sun 20:26:53 22-Jan-2017
-begin	aperture last 1 1249. 15.50309
-	image	last
+# Sun 20:02:38 22-Jan-2017
+begin	aperture copy_SSEM 1 1249. 15.50309
+	image	copy_SSEM
 	aperture	1
 	beam	1
 	center	1249. 15.50309
@@ -37,9 +37,9 @@ begin	aperture last 1 1249. 15.50309
 		2.283932
 		-0.871347
 
-# Sun 20:26:53 22-Jan-2017
-begin	aperture last 2 1249. 65.13994
-	image	last
+# Sun 20:02:38 22-Jan-2017
+begin	aperture copy_SSEM 2 1249. 65.13994
+	image	copy_SSEM
 	aperture	2
 	beam	2
 	center	1249. 65.13994
