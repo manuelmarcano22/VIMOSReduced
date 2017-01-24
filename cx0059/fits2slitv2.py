@@ -30,7 +30,7 @@ deccxo = np.array(deccxo,dtype=float)
 for i in glob.glob('VI_SSEM_*Q[1-4]*') :
 		quad = i.split('_')[-2]
 		OBsp = i.split('_')[2]
-		preimage = glob.glob('VI_SREI_*'+quad+'*')[0]
+		preimage = glob.glob('VI_SREI_*'+quad+'*')[1]
 		OBim = preimage.split('_')[2]
 		preheader = fits.getheader(preimage)
 		spheader = fits.getheader(i)
