@@ -1,12 +1,12 @@
-# Fri 20:40:39 10-Feb-2017
-begin	aperture last 1 1249. 100.
+# Fri 20:35:35 10-Feb-2017
+begin	aperture VI_SEXM_577734_2011-06-24T05:56:42.518_G475_MR_402230_Q4_hi 1 1249. 100
 	title	119.26   -10.100    5000
-	image	last
+	image	VI_SEXM_577734_2011-06-24T05:56:42.518_G475_MR_402230_Q4_hi
 	aperture	1
 	beam	1
-	center	1249. 100.
+	center	1249. 100
 	low	-1248. -10.1
-	high	1250. 50.
+	high	1250. 50
 	background
 		xmin -10.
 		xmax 10.

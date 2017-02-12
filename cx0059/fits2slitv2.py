@@ -75,7 +75,8 @@ for i in glob.glob('VI_SSEM_*Q[1-4]*') :
 						np.linalg.norm(\
 						np.array([np.cos(ra)*ra,dec]) - radeccxo  
 						,axis =1)
-				if (-7 < nearby.min() <7):
+				if (-7 < nearby.min() <50):
+					print(nearby.min())
 					fout.write('box('\
 							'{xc},{yc},'\
 							'{dx},{dy},0) # '\

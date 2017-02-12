@@ -1,0 +1,16 @@
+input,s,a,'VI_SEXM_577734_2011-06-24T05:56:42.518_G475_MR_402230_Q4_hi.fits',,,'List of input images to edit'
+apertures,s,h,'',,,'Apertures'
+references,s,h,'',,,'Reference images
+'
+interactive,b,h,yes,,,'Run task interactively?'
+find,b,h,no,,,'Find apertures?'
+recenter,b,h,no,,,'Recenter apertures?'
+resize,b,h,no,,,'Resize apertures?'
+edit,b,h,yes,,,'Edit apertures?
+'
+line,i,h,INDEF,1,,'Dispersion line'
+nsum,i,h,10,,,'Number of dispersion lines to sum or median'
+width,r,h,5.0,0.0,,'Profile centering width'
+radius,r,h,10.0,,,'Profile centering radius'
+threshold,r,h,0.0,0.0,,'Detection threshold for profile centering'
+mode,s,h,'al'

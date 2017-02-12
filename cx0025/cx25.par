@@ -1,16 +1,16 @@
 input,s,a,'VI_SEXM_577734_2011-06-24T05:56:42.518_G475_MR_402230_Q4_hi.fits',,,'List of input images'
 output,s,h,'',,,'List of output spectra'
-apertures,s,h,'',,,'Apertures'
+apertures,s,h,'1',,,'Apertures'
 format,s,h,'multispec','|onedspec|multispec|echelle|strip|',,'Extracted spectra format'
 references,s,h,'',,,'List of aperture reference images'
 profiles,s,h,'',,,'List of aperture profile images
 '
 interactive,b,h,yes,,,'Run task interactively?'
 find,b,h,yes,,,'Find apertures?'
-recenter,b,h,yes,,,'Recenter apertures?'
-resize,b,h,yes,,,'Resize apertures?'
-edit,b,h,yes,,,'Edit apertures?'
-trace,b,h,yes,,,'Trace apertures?'
+recenter,b,h,no,,,'Recenter apertures?'
+resize,b,h,no,,,'Resize apertures?'
+edit,b,h,no,,,'Edit apertures?'
+trace,b,h,no,,,'Trace apertures?'
 fittrace,b,h,yes,,,'Fit the traced points interactively?'
 extract,b,h,yes,,,'Extract spectra?'
 extras,b,h,yes,,,'Extract sky, sigma, etc.?'
@@ -22,7 +22,7 @@ nsum,i,h,10,,,'Number of dispersion lines to sum or median
 # DEFAULT APERTURE PARAMETERS
 '
 lower,r,h,-5.0,,,'Lower aperture limit relative to center'
-upper,r,h,5.0,,,'Upper aperture limit relative to center'
+upper,r,h,1.0,,,'Upper aperture limit relative to center'
 apidtable,s,h,'apidtable',,,'Aperture ID table (optional)
 
 # DEFAULT BACKGROUND PARAMETERS

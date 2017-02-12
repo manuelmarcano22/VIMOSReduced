@@ -1,4 +1,4 @@
-input,s,a,'VI_SEXM_577734_2011-06-24T05:56:42.518_G475_MR_402230_Q4_hi.fits',,,'List of input images'
+input,s,a,,,,'List of input images'
 output,s,h,'',,,'List of output spectra'
 apertures,s,h,'',,,'Apertures'
 format,s,h,'multispec','|onedspec|multispec|echelle|strip|',,'Extracted spectra format'
@@ -23,7 +23,7 @@ nsum,i,h,10,,,'Number of dispersion lines to sum or median
 '
 lower,r,h,-5.0,,,'Lower aperture limit relative to center'
 upper,r,h,5.0,,,'Upper aperture limit relative to center'
-apidtable,s,h,'apidtable',,,'Aperture ID table (optional)
+apidtable,s,h,'',,,'Aperture ID table (optional)
 
 # DEFAULT BACKGROUND PARAMETERS
 '
@@ -44,7 +44,7 @@ threshold,r,h,0.0,0.0,,'Detection threshold for profile centering
 
 # AUTOMATIC FINDING AND ORDERING PARAMETERS
 '
-nfind,i,q,6,,,'Number of apertures to be found automatically'
+nfind,i,q,,,,'Number of apertures to be found automatically'
 minsep,r,h,5.0,1.0,,'Minimum separation between spectra'
 maxsep,r,h,100000.0,1.0,,'Maximum separation between spectra'
 order,s,h,'increasing','|increasing|decreasing|',,'Order of apertures
