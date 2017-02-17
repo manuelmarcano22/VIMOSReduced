@@ -6,7 +6,7 @@ references,s,h,'',,,'List of aperture reference images'
 profiles,s,h,'',,,'List of aperture profile images
 '
 interactive,b,h,no,,,'Run task interactively?'
-find,b,h,yes,,,'Find apertures?'
+find,b,h,no,,,'Find apertures?'
 recenter,b,h,no,,,'Recenter apertures?'
 resize,b,h,no,,,'Resize apertures?'
 edit,b,h,no,,,'Edit apertures?'
