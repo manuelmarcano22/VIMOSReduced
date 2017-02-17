@@ -1,11 +1,11 @@
-input,s,a,'VI_SEXM_577734_2011-06-24T05:56:42.518_G475_MR_402230_Q4_hi.fits',,,'List of input images'
+input,s,a,'cx25sexm.fits',,,'List of input images'
 output,s,h,'',,,'List of output spectra'
 apertures,s,h,'1',,,'Apertures'
 format,s,h,'multispec','|onedspec|multispec|echelle|strip|',,'Extracted spectra format'
 references,s,h,'',,,'List of aperture reference images'
 profiles,s,h,'',,,'List of aperture profile images
 '
-interactive,b,h,yes,,,'Run task interactively?'
+interactive,b,h,no,,,'Run task interactively?'
 find,b,h,yes,,,'Find apertures?'
 recenter,b,h,no,,,'Recenter apertures?'
 resize,b,h,no,,,'Resize apertures?'
