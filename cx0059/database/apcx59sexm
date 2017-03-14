@@ -1,11 +1,11 @@
-# Tue 00:16:33 14-Mar-2017
-begin	aperture last 1 1250. 128.9408
-	image	last
+# Mon 03:30:12 13-Mar-2017
+begin	aperture cx59 1 1249. 393.6144
+	image	cx59
 	aperture	1
 	beam	1
-	center	1250. 128.9408
-	low	-1249. -2.27951
-	high	1250. 2.252074
+	center	1249. 393.6144
+	low	-1248. -16.42925
+	high	1250. 25.96597
 	background
 		xmin -10.
 		xmax 10.
@@ -22,6 +22,6 @@ begin	aperture last 1 1250. 128.9408
 		2.
 		1.
 		1.
-		2500.
+		2499.
 		0.
 

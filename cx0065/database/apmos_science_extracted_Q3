@@ -1,11 +1,11 @@
-# Tue 00:16:33 14-Mar-2017
-begin	aperture last 1 1250. 128.9408
-	image	last
+# Mon 23:38:46 13-Mar-2017
+begin	aperture mos_science_extracted_Q3 1 1250. 156.1541
+	image	mos_science_extracted_Q3
 	aperture	1
 	beam	1
-	center	1250. 128.9408
-	low	-1249. -2.27951
-	high	1250. 2.252074
+	center	1250. 156.1541
+	low	-1249. -5.
+	high	1250. 5.
 	background
 		xmin -10.
 		xmax 10.

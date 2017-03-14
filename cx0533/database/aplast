@@ -1,11 +1,11 @@
-# Tue 00:16:33 14-Mar-2017
-begin	aperture last 1 1250. 128.9408
+# Tue 01:59:23 14-Mar-2017
+begin	aperture last 1 1250. 29.32438
 	image	last
 	aperture	1
 	beam	1
-	center	1250. 128.9408
-	low	-1249. -2.27951
-	high	1250. 2.252074
+	center	1250. 29.32438
+	low	-1249. -4.88796
+	high	1250. 5.035874
 	background
 		xmin -10.
 		xmax 10.

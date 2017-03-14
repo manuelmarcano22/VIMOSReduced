@@ -1,6 +1,6 @@
 # Tue 00:16:33 14-Mar-2017
-begin	aperture last 1 1250. 128.9408
-	image	last
+begin	aperture cx183 1 1250. 128.9408
+	image	cx183
 	aperture	1
 	beam	1
 	center	1250. 128.9408

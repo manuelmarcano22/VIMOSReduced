@@ -1,11 +1,11 @@
-# Tue 00:16:33 14-Mar-2017
-begin	aperture last 1 1250. 128.9408
-	image	last
+# Tue 00:39:44 14-Mar-2017
+begin	aperture cx191sexm 1 1250. 145.1846
+	image	cx191sexm
 	aperture	1
 	beam	1
-	center	1250. 128.9408
-	low	-1249. -2.27951
-	high	1250. 2.252074
+	center	1250. 145.1846
+	low	-1249. -3.567228
+	high	1250. 3.658635
 	background
 		xmin -10.
 		xmax 10.
@@ -18,10 +18,11 @@ begin	aperture last 1 1250. 128.9408
 		high_reject 3.
 		grow 0.
 	axis	2
-	curve	5
+	curve	6
 		2.
-		1.
-		1.
+		2.
+		150.
 		2500.
-		0.
+		-0.5017967
+		1.545512
 
