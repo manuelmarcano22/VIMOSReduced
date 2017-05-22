@@ -1,5 +1,0 @@
-images,s,a,'VI_SREI_544351_2011-04-01T09:22:43.312_R_Q4_lo.fits',,,'image names'
-imlist,s,h,'*.imh,*.fits,*.pl,*.qp,*.hhh',,,'default image names'
-longheader,b,h,no,,,'print header in multi-line format'
-userfields,b,h,yes,,,'print the user fields (instrument parameters)'
-mode,s,h,'al'
