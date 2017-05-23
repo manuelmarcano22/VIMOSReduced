@@ -29,7 +29,7 @@ apidtable,s,h,'',,,'Aperture ID table (optional)
 '
 b_function,s,h,'chebyshev','|chebyshev|legendre|spline1|spline3|',,'Background function'
 b_order,i,h,1,1,,'Background function order'
-b_sample,s,h,'-10:-6,6:10',,,'Background sample regions'
+b_sample,s,h,'-10,0:0,0',,,'Background sample regions'
 b_naverage,i,h,-3,,,'Background average or median'
 b_niterate,i,h,0,0,,'Background rejection iterations'
 b_low_reject,r,h,3.0,0.0,,'Background lower rejection sigma'
@@ -81,11 +81,11 @@ t_grow,r,h,0.0,0.0,,'Trace rejection growing radius
 
 # EXTRACTION PARAMETERS
 '
-background,s,h,'none','|none|average|median|minimum|fit|',,'Background to subtract'
+background,s,h,'average','|none|average|median|minimum|fit|',,'Background to subtract'
 skybox,i,h,1,1,,'Box car smoothing length for sky'
 weights,s,h,'none','|none|variance|',,'Extraction weights (none|variance)'
 pfit,s,h,'fit1d','|fit1d|fit2d|',,'Profile fitting type (fit1d|fit2d)'
-clean,b,h,no,,,'Detect and replace bad pixels?'
+clean,b,h,yes,,,'Detect and replace bad pixels?'
 saturation,r,h,INDEF,1.0,,'Saturation level'
 readnoise,s,h,'0.',,,'Read out noise sigma (photons)'
 gain,s,h,'1.',,,'Photon gain (photons/data number)'
