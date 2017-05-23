@@ -4,14 +4,14 @@ begin	aperture cx953sky 1 1250. 31
 	aperture	1
 	beam	1
 	center	1250. 31
-	low	-1249. -5
-	high	1250. 5
+	low	-1249. -3.7
+	high	1250. 3.86
 	background
-		xmin 1.
-		xmax 10.
+		xmin 6
+		xmax 12
 		function chebyshev
 		order 1
-		sample 1:-6,6:10
+		sample 6:8,8:12
 		naverage -3
 		niterate 0
 		low_reject 3.
