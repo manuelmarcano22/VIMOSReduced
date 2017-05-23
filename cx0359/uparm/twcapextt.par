@@ -1,4 +1,4 @@
-dispaxis,i,h,1,1,2,'Dispersion axis (1=along lines, 2=along columns)'
+dispaxis,i,h,1,1,1,'Dispersion axis (1=along lines, 2=along columns)'
 database,f,h,'database',,,'Database'
 verbose,b,h,no,,,'Verbose output?'
 logfile,s,h,'',,,'Text log file'
