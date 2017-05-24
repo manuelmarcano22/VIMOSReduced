@@ -10,7 +10,7 @@ override,b,h,no,,,'Override previously fit lines?'
 listonly,b,h,no,,,"List fit but don't modify any images?"
 logfiles,s,h,'logfile',,,'List of log files'
 interactive,b,h,no,,,'Set fitting parameters interactively?'
-sample,s,h,'8000:9000',,,'Sample points to use in fit'
+sample,s,h,'5000:9000',,,'Sample points to use in fit'
 naverage,i,h,1,,,'Number of points in sample averaging'
 function,s,h,'spline3','|spline3|legendre|chebyshev|spline1|',,'Fitting function'
 order,i,h,1,1,,'Order of fitting function'
