@@ -1,4 +1,5 @@
 manuemail.txt
+./.ipynb_checkpoints/*
 *.fits
 ultraviolet-sources-chandra.pdf
 *.tar.gz
