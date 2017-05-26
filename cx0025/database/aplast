@@ -1,4 +1,4 @@
-# Fri 23:00:50 26-May-2017
+# Fri 23:08:23 26-May-2017
 begin	aperture last 1 1250. 119.
 	image	last
 	aperture	1
