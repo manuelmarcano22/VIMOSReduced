@@ -1,17 +1,17 @@
-# Tue 20:49:30 30-May-2017
-begin	aperture last 1 1250. 155.
-	image	last
+# Tue 00:16:33 14-Mar-2017
+begin	aperture cx183sky 1 1250. 116
+	image	cx183sky
 	aperture	1
 	beam	1
-	center	1250. 155.
-	low	-1249. -5.
-	high	1250. 5.
+	center	1250. 116
+	low	-1249. -2
+	high	1250. 1
 	background
-		xmin -15.
-		xmax 25.
+		xmin 0
+		xmax -16
 		function chebyshev
 		order 1
-		sample -15:-10,15:25
+		sample 0:0,-46:-16
 		naverage -3
 		niterate 0
 		low_reject 3.
