@@ -1,14 +1,14 @@
-# Tue 15:33:02 30-May-2017
-begin	aperture last 1 1249. 402.
-	image	last
+# Mon 03:30:12 13-Mar-2017
+begin	aperture cx59ssem 1 1249. 402
+	image	cx59ssem
 	aperture	1
 	beam	1
-	center	1249. 402.
-	low	-1248. -5.
-	high	1250. 5.
+	center	1249. 402
+	low	-1248. -5
+	high	1250. 5
 	background
-		xmin 0.
-		xmax 36.
+		xmin 0
+		xmax 36
 		function chebyshev
 		order 1
 		sample 0:0,26:36
