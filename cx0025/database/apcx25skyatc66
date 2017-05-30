@@ -1,14 +1,14 @@
-# Tue 20:17:08 30-May-2017
-begin	aperture last 1 1250. 170.
-	image	last
+# Tue 01:28:30 14-Mar-2017
+begin	aperture cx25skyatc66 1 1250. 170
+	image	cx25skyatc66
 	aperture	1
 	beam	1
-	center	1250. 170.
-	low	-1249. -5.
-	high	1250. 5.
+	center	1250. 170
+	low	-1249. -5
+	high	1250. 5
 	background
-		xmin 20.
-		xmax 10.
+		xmin 20
+		xmax 10
 		function chebyshev
 		order 1
 		sample 20:30,5:10
