@@ -4,14 +4,14 @@ begin	aperture cx183sky 1 1250. 116
 	aperture	1
 	beam	1
 	center	1250. 116
-	low	-1249. -2
+	low	-1249. -3
 	high	1250. 1
 	background
-		xmin 0
-		xmax -16
+		xmin -46
+		xmax 0
 		function chebyshev
 		order 1
-		sample 0:0,-46:-16
+		sample -46:-16,0:0
 		naverage -3
 		niterate 0
 		low_reject 3.
