@@ -1,5 +1,5 @@
 # Tue 00:38:55 14-Mar-2017
-begin	aperture cx191skytwo 1 1250. 16
+begin	aperture cx191 1 1250. 145.1846
 	image	cx191skytwo
 	aperture	1
 	beam	1
