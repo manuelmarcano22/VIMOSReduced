@@ -1,17 +1,17 @@
-# Wed 21:19:27 07-Jun-2017
-begin	aperture last 1 1250. 78.
-	image	last
+# Tue 01:28:30 14-Mar-2017
+begin	aperture cx359sexm 1 1250. 31.87886
+	image	cx371ssem
 	aperture	1
 	beam	1
-	center	1250. 78.
-	low	-1249. -3.
-	high	1250. 3.
+	center	1250. 62
+	low	-1249. -5
+	high	1250. 5
 	background
-		xmin 3.
-		xmax 9.
+		xmin -23
+		xmax 28
 		function chebyshev
 		order 1
-		sample 3:8,5:9
+		sample -23:-12,18:28
 		naverage -3
 		niterate 0
 		low_reject 3.
