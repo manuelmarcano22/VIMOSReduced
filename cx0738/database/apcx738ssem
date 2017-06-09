@@ -1,17 +1,17 @@
-# Thu 20:44:39 08-Jun-2017
-begin	aperture last 1 1249. 137.
-	image	last
+# Tue 14:53:10 14-Mar-2017
+begin	aperture cx738sexm 1 1249. 140.6336
+	image	cx738ssem
 	aperture	1
 	beam	1
-	center	1249. 137.
-	low	-1248. -5.
-	high	1250. 5.
+	center	1249. 140
+	low	-1248. -5
+	high	1250. 5
 	background
-		xmin -56.
-		xmax 12.
+		xmin -40
+		xmax 23
 		function chebyshev
 		order 1
-		sample -56:-30,0:12
+		sample -40:-27,21:23
 		naverage -3
 		niterate 0
 		low_reject 3.

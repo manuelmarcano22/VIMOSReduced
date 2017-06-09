@@ -1,17 +1,17 @@
-# Thu 20:44:39 08-Jun-2017
-begin	aperture last 1 1249. 137.
-	image	last
+# Tue 02:43:50 14-Mar-2017
+begin	aperture cx719sexm 1 1249. 217.5193
+	image	cx719ssem
 	aperture	1
 	beam	1
-	center	1249. 137.
-	low	-1248. -5.
-	high	1250. 5.
+	center	1249. 224
+	low	-1248. -2
+	high	1250. 2
 	background
-		xmin -56.
-		xmax 12.
+		xmin -37
+		xmax 49
 		function chebyshev
 		order 1
-		sample -56:-30,0:12
+		sample -37:-26,19:49
 		naverage -3
 		niterate 0
 		low_reject 3.

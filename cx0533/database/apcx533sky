@@ -1,14 +1,14 @@
-# Thu 17:07:26 08-Jun-2017
-begin	aperture last 1 1250. 33.
-	image	last
+# Tue 01:59:23 14-Mar-2017
+begin	aperture cx533sexm 1 1250. 29.32438
+	image	cx533sky
 	aperture	1
 	beam	1
-	center	1250. 33.
-	low	-1249. -2.
-	high	1250. 2.
+	center	1250. 33
+	low	-1249. -2
+	high	1250. 2
 	background
-		xmin 0.
-		xmax 11.
+		xmin 0
+		xmax 11
 		function chebyshev
 		order 1
 		sample 0:0,5:11

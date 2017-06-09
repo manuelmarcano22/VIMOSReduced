@@ -1,17 +1,17 @@
-# Thu 20:44:39 08-Jun-2017
-begin	aperture last 1 1249. 137.
-	image	last
+# Tue 15:30:03 14-Mar-2017
+begin	aperture cx925sexm 1 1249. 293.306
+	image	cx945sky
 	aperture	1
 	beam	1
-	center	1249. 137.
-	low	-1248. -5.
-	high	1250. 5.
+	center	1249. 31
+	low	-1248. -5
+	high	1250. 5
 	background
-		xmin -56.
-		xmax 12.
+		xmin -20
+		xmax 21
 		function chebyshev
 		order 1
-		sample -56:-30,0:12
+		sample -20:-13,11:21
 		naverage -3
 		niterate 0
 		low_reject 3.
