@@ -1,17 +1,17 @@
 # Tue 15:56:19 14-Mar-2017
 begin	aperture cx967sexm 1 1250. 49.51036
-	image	cx967sexm
+	image	cx967sky
 	aperture	1
 	beam	1
 	center	1250. 49
-	low	-1249. -3
-	high	1250. 3
+	low	-1249. -5
+	high	1250. 5
 	background
-		xmin 0
-		xmax 0
+		xmin -13
+		xmax 21
 		function chebyshev
 		order 1
-		sample 0:0,0:0
+		sample -13:-9,12:21
 		naverage -3
 		niterate 0
 		low_reject 3.
