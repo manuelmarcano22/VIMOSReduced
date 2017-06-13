@@ -1,17 +1,17 @@
-# Wed 13:57:15 31-May-2017
-begin	aperture last 1 1250. 170.
+# Tue 17:49:43 13-Jun-2017
+begin	aperture last 1 1250. 119.
 	image	last
 	aperture	1
 	beam	1
-	center	1250. 170.
+	center	1250. 119.
 	low	-1249. -5.
 	high	1250. 5.
 	background
-		xmin 20.
-		xmax 10.
+		xmin 29.
+		xmax 33.
 		function chebyshev
 		order 1
-		sample 20:30,5:10
+		sample 29:49,24:33
 		naverage -3
 		niterate 0
 		low_reject 3.
