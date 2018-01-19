@@ -1,7 +1,0 @@
-global color=red dashlist=8 3 width=1 font="helvetica 10 normal" fixed=0 edit=1 move=1 delete=1 select=1 highlite=1 dash=0 include=1 source=1 
-image 
-box(96.8661534916,355.346835048,70.005119294,4.88,0) # font="helvetica 18 normal" text={CX59}
-box(231.109217674,700.634845005,64.9974562692,4.88,0) # font="helvetica 18 normal" text={CX572}
-box(782.850990045,446.574957522,69.4566517986,4.88,0) # font="helvetica 18 normal" text={CX1033}
-box(1508.59725516,574.430900796,87.6155696689,4.88,0) # font="helvetica 18 normal" text={CX1032}
-box(1767.68759756,325.605725615,77.3012012351,4.88,0) # font="helvetica 18 normal" text={CX172}

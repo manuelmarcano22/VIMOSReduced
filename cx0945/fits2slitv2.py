@@ -49,7 +49,7 @@ for i in glob.glob('mos_science_extracted_*Q[1-4]*') :
 			axy = float(preheader['*CCD XY'][0])
 			ayx = float(preheader['*CCD YX'][0]) 
 			#iterate over slits
-			for slit in [1,2,3,4,5,6,7]:
+			for slit in [1,2,3,4,5,6]:
 				#Get info about the slit in teh spheader.
 				##xx is the lower x value, cx the length.
 				## Assume slit is not tilted.
