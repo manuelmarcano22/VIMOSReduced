@@ -1,7 +1,6 @@
 manuemail.txt
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-*.fits
 ultraviolet-sources-chandra.pdf
 *.tar.gz
 pyraf
